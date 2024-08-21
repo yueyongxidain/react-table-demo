@@ -10,7 +10,10 @@
     height: 100%;
     table {
       width: 150%;
-      
+      border-collapse: collapse;
+      th,td{
+        box-sizing: border-box;
+      }
     }
   }
 }

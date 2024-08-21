@@ -14,6 +14,8 @@ function App() {
       title: 'Age',
       dataIndex: 'age',
       key: 'age',
+      fixed: 'left',
+      width: 100,
       sorter: (a: any, b: any) => a.age - b.age,
     },
     {
@@ -50,6 +52,7 @@ function App() {
     { name: 'Grace', age: 33, sex: '男', address: "Grace's apartment" },
     { name: 'Hannah', age: 38, sex: '男', address: "Hannah's bungalow" },
   ];
+
   return (
     <>
       <div style={{ height: 400 }}>
