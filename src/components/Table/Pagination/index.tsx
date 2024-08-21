@@ -1,14 +1,14 @@
-import React from "react";
-import "./style.scss";
+import React from 'react';
+import './style.scss';
 
-interface TableFooterProps {
+interface IPaginationProps {
   currentPage: number;
   pageSize: number;
   totalItems: number;
   onPageChange: (page: number) => void;
 }
 
-export const TableFooter: React.FC<TableFooterProps> = ({
+export const Pagination: React.FC<IPaginationProps> = ({
   currentPage,
   pageSize,
   totalItems,
