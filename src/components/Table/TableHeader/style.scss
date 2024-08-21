@@ -1,0 +1,15 @@
+.table-header {
+  th {
+    background: #ccc;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .isStickyTop {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+  }
+  .isSticky {
+    position: sticky;
+  }
+}

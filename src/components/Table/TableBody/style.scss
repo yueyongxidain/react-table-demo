@@ -1,0 +1,10 @@
+.table-body{
+    td{
+        padding: 10px;
+        background: white;
+    }
+    .isSticky{
+        position: sticky;
+        z-index: 1;
+    }
+}
