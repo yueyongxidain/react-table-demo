@@ -49,7 +49,7 @@ function App() {
     { name: "Frank", age: 26, sex: "女", address: "Frank's shack" },
     { name: "Grace", age: 33, sex: "男", address: "Grace's apartment" },
     { name: "Hannah", age: 38, sex: "男", address: "Hannah's bungalow" },
-  ];
+  ]
   return (
     <>
       <div style={{ height: 400 }}>
